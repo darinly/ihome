@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>home.html</title>
+	
+	<meta charset="utf-8">
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.6.5/angular.min.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+  
+  	<div id="header">
+  		<h1>Welcome to Ihome!</h1>
+  	</div>
+  	
+  	<main id="app">
+  		<section id="search-view">
+  			<form>
+  				<input type="text" name="searchtext">search<br>
+  			</form>
+  		</section>
+  		<section id="content">
+  			house1<br>
+  			house2<br>
+  			<p>名字：<input type="text" ng-model="name"></p>
+  			<h2>Hello {{name}}</h2>
+  		</section>
+  	</main>
+  	
+  </body>
+</html>
